@@ -1,5 +1,4 @@
 const User = require("./model");
-const { get } = require("./routes");
 
 const signupUser = async (req, res) => {
   try {
@@ -48,6 +47,5 @@ module.exports = {
   signupUser: signupUser,
   getAllUsers: getAllUsers,
   login: login,
-  deleteAllUsers,
-  deleteAllUsers,
+  deleteAllUsers: deleteAllUsers,
 };
